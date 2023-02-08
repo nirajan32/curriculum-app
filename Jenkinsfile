@@ -31,7 +31,7 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh 'docker push lts-alpine  '
+        sh 'docker push nireniru/blueocean:latest'
       }
     }
 
