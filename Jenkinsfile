@@ -21,7 +21,7 @@ pipeline {
 
     stage('Log in to Dockerhub') {
       environment {
-        DOCKERHUB_USER = 'nirvananire@gmail.com'
+        DOCKERHUB_USER = 'nireniru'
         DOCKERHUB_PASSWORD = 'nirajanbhawana123@'
       }
       steps {
