@@ -31,7 +31,7 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh 'docker push nireniru/lts-alpine  '
+        sh 'docker push lts-alpine  '
       }
     }
 
